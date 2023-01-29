@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+</head>
+<body style="margin-left: 30%; margin-top: 70px; background-color: aliceblue">
+    <h1 style="margin-left: 20%; padding-bottom: 20px;">Formulaire d'inscription</h1>
+
+    <form action="" method="">
+
+        <table cellspacing="10">
+            <tr>
+                <td><label for="">Nom : <span style="color: red;">*</span></label></td>
+                <td><input type="text" name="nom" placeholder="votre nom" required></td>
+                <td><label for="">Prenom : <span style="color: red;">*</span></label></td>
+                <td><input type="text" name="prenom" placeholder="votre prenom" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Email : <span style="color: red;">*</span></label></td>
+                <td><input type="email" name="email" placeholder="votre email" required></td>
+                <td><label for="">Telephone : <span style="color: red;">*</span></label></td>
+                <td><input type="tel" name="phone" placeholder="e.g: +224 611 33 59 31" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Genre : <span style="color: red;">*</span></label></td>
+                <td>
+                    <select>
+                        <option value="" selected disabled>--Selectionner votre genre</option>
+                        <option value="Masculin">Masculin</option>
+                        <option value="Feminin">Feminin</option>
+                    </select>
+                </td>
+                <td><label for="">Tranche d'âge : <span style="color: red;">*</span></label></td>
+                <td>
+                    <input type="radio" name="age" id="t_age1" value="15-18">
+                    <label for="t_age1">15-18</label> <br>
+                    <input type="radio" name="age" id="t_age2" value="19-25">
+                    <label for="t_age2">19-25</label> <br>
+                    <input type="radio" name="age" id="t_age3" value="26-35">
+                    <label for="t_age3">26-35</label> <br>
+                    <input type="radio" name="age" id="t_age4" value="36-plus">
+                    <label for="t_age4">36-Plus</label> <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Competences : <span style="color: red;">*</span></label></td>
+                <td>
+                    <input type="checkbox" name="html" id="skill1" value="HTML">
+                    <label for="skill1">HTML</label> <br>
+                    <input type="checkbox" name="css" id="skill2" value="CSS">
+                    <label for="skill2">CSS</label> <br>
+                    <input type="checkbox" name="php" id="skill3" value="PHP">
+                    <label for="skill3">PHP</label> <br>
+                    <input type="checkbox" name="javascript" id="skill4" value="Javascript">
+                    <label for="skill4">Javascript</label> <br>
+                    <input type="checkbox" name="mysql" id="skill5" value="MySQL">
+                    <label for="skill5">MySQL</label>
+                </td>
+                <td><label for="">Technolgie favorite : <span style="color: red;">*</span></label></td>
+                <td>
+                    <input type="radio" name="tech_fav" id="radio_skill1" value="HTML">
+                    <label for="radio_skill1">HTML</label> <br>
+                    <input type="radio" name="tech_fav" id="radio_skill2" value="CSS">
+                    <label for="radio_skill2">CSS</label> <br>
+                    <input type="radio" name="tech_fav" id="radio_skill3" value="PHP">
+                    <label for="radio_skill3">PHP</label> <br>
+                    <input type="radio" name="tech_fav" id="radio_skill4" value="Javascript">
+                    <label for="radio_skill4">Javascript</label> <br>
+                    <input type="radio" name="tech_fav" id="radio_skill5" value="MySQL">
+                    <label for="radio_skill5">MySQL</label> <br>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td><label for="color">Couleur Préférée :</label></td>
+                <td><input type="color" name="favColor" id="color" value="#94D2D6"></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
