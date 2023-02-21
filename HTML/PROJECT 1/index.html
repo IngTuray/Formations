@@ -1,15 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <title>Project 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- bouton dark & light mode -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Mode Normal</span>
+            <i class="fas fa-sun"></i>
+        </span>
+
+        <label class="theme-switch">
+            <input type="checkbox" name="" id="">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- fin bouton dark & light mode -->
+
+    <!-- barre de navigation -->
+    <nav id="nav">
+        <a href="#home">ACCUEIL</a>
+        <a href="#about">MOI</a>
+        <a href="#projects">SERVICES</a>
+        <a href="img/mon-cv.pdf" target="_blank">MON CV</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- fin barre de navigation -->
+
+    <!-- section accueil -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Sekou A. Turay</h1>
+            <h2><strong>Bienvenue sur mon site web</strong></h2>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>
+                Salut ! Je suis Sekou A. Turay, Ingénieur Informatique
+                spécialisé dans le developpement web, mobile, desktop & Analyste BI.
+                Je suis disponible pour tout vos projets informatiques. <a href="#contact">Contactez-Moi</a>
+            </p>
+        </div>
+    </section>
+    <!-- fin section accueil -->
+
+    <!-- section a propos -->
+    <section id="about">
+        <h1>A Propos de Moi</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Developpeur Web FS</h2>
+                <img src="img/undraw_programming_re_kg9v_dark.svg" alt="" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Developpeur Mobile</h2>
+                <img src="img/undraw_mobile_ux_re_59hr_dark.svg" alt="" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>Analyste BI</h2>
+                <img src="img/undraw_real_time_analytics_re_yliv_dark.svg" alt="" id="image3">
+            </div>
+        </div>
+    </section>
+    <!-- fin section a propos -->
+
+    <!-- section mes projets -->
+    <section id="projects">
+        <h1>Mes services</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2 style="margin-bottom: -1px;">Developpement Web</h2>
+                <p style="margin-bottom: 20px;">Je developpe et heberge vos sites web</p>
+                <img src="img/undraw_static_website_re_x70h_dark.svg" alt="" id="image4">
+            </div>
+
+            <div class="image-container">
+                <h2 style="margin-bottom: -1px;">Developpement Mobile</h2>
+                <p style="margin-bottom: 20px;">Je developpe vos applications mobiles sous Android & iOS</p>
+                <img src="img/undraw_develop_app_re_bi4i_dark.svg" alt="" id="image5">
+            </div>
+
+            <div class="image-container">
+                <h2 style="margin-bottom: -1px;">Accompagnement</h2>
+                <p style="margin-bottom: 20px;">J'accompagne les Etudiants dans leurs projets.</p>
+                <img src="img/undraw_developer_activity_re_39tg_dark.svg" alt="" id="image6">
+            </div>
+        </div>
+    </section>
+    <!-- fin section mes projets  -->
+
+    <!-- section mes contacts -->
+    <section id="contact">
+        <div class="social-icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-snapchat"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+    <!-- fin section mes contacts  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Script -->
     <script src="script.js"></script>
 </body>
+
 </html>
